@@ -80,6 +80,7 @@
     border-radius: 50px;
     cursor: pointer;
     margin-bottom: 10px;
+    text-decoration: none;
   }
   
   .back-to-top:hover {
