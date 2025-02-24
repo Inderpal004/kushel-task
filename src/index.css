@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Wix Madefor Display", serif;
+}
+
+.section-btn {
+    display: block;
+    margin: 35px auto;
+    background: transparent;
+    border: 1px solid #3464FD;
+    color: #3464FD;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-btn:hover {
+    background: #3464FD;
+    color: white;
+}

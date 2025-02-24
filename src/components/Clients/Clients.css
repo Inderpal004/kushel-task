@@ -1,0 +1,39 @@
+.clients {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f9f6f2;
+  }
+  
+  .clients h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .clients p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 30px auto 0px;
+  }
+  
+  .client-card {
+    background: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .client-card img {
+    width: 110px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+  }
+  

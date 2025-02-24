@@ -1,0 +1,44 @@
+.home-container {
+    width: 100%;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 105, 116, 0.8), rgba(0, 45, 50, 0.8)), url('/home-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.rating svg {
+    color: gold;
+}
+
+.home-container > h1 {
+    margin: 8px 0 12px;
+}
+
+.home-container > p {
+    color: #fff;
+}
+
+.home-highlight {
+    background-color: gold;
+    color: #000;
+}
+
+.home-laptop {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    width: 60%;
+}

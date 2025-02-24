@@ -1,0 +1,84 @@
+.hero {
+    text-align: center;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #eceff1;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #333;
+    width: max-content;
+    margin:0 auto 10px;
+  }
+
+  .badge svg {
+    color: #0056b3;
+  }
+  
+  .hero h1 {
+    font-size: 28px;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+  }
+  
+  .hero-highlight {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s ease;
+    background: transparent;
+  }
+  
+  .primary-btn {
+    border:1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .primary-btn:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+  
+  .secondary-btn {
+    background: #f8f9fa;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  
+  .secondary-btn:hover {
+    background: #e0e0e0;
+  }
+  
